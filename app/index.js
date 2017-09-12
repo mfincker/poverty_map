@@ -136,6 +136,8 @@ function changeLayer(e) {
   if (e.target.value && e.target !== e.currentTarget) {
         vega_layer._view.signal("layer", e.target.value)
                         .run()
+        // Reset unavailable layer on layer choice
+        document.getElementById('unavailable-layer').style.display = "none";
     }
     e.stopPropagation();
 }
