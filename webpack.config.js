@@ -9,7 +9,7 @@ var webpack = require('webpack');
 var config = {
 	entry: ['babel-polyfill','./app/index.js'],
 	output: {
-		path: path.resolve(__dirname, 'poverty_map'),
+		path: path.resolve(__dirname, 'dist'),
 		filename: 'index_bundle.js',
 		publicPath: '/poverty_map',
 	},
