@@ -7,4 +7,4 @@ To install the map locally, follow the following steps (assuming you have ```nod
   * clone this repository into a new directory
   * move into the directory
   * run ```npm install``` to install the necessary modules
-  * run ```npm start``` to start the development server
+  * run ```npm start``` to start the development server. The map is served from ```localhost/poverty_map```.
